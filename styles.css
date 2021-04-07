@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/spacemono/v6/i7dPIFZifjKcF5UAWdDRYEF8RQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  background-color: #0f2e4d;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Space Mono;
+  text-shadow: moccasin 1px 1px 3px;
+  background-image: url(./Images/starry.jpg); 
+}
+
+table {
+  border: 0px solid #3399ff;
+  background-color: honeydew;
+  width: 800px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+  border: 3px solid #3399ff;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: springgreen;
+}
+
+td {
+  border: 1.5px solid #3399ff;
+  font-weight: 600;
+}
+
+.code {
+  background-color: white;
+  
+  font-family: monospace;
+  text-align: center;
+}
+
+.htag {
+  column-width: 250px;  
+}
+
+.name {
+  column-width: 250px;
+  background-color: steelblue;
+}
+
